@@ -40,7 +40,7 @@ def show(a):
 width = 4
 empty = [[0 for y in range(width)] for x in range(4)]
 
-def main():
+def algoPremiereVersion():
     lst = list(map(list, itertools.product([0, 1], repeat=width)))
     finalElements = []
     finalElements.append(empty)
